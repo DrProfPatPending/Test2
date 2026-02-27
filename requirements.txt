@@ -1,0 +1,7 @@
+# Add your project dependencies here
+# Math and linear algebra support
+numpy
+scipy
+# For example:
+# requests==2.25.1
+
