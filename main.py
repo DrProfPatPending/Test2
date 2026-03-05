@@ -23,7 +23,7 @@ def on_go():
 
 root = tk.Tk()
 root.title("Cartesian to Polar Coordinate Converter")
-root.geometry("600x340")
+root.geometry("400x340")
 
 mainframe = ttk.Frame(root, padding="10 10 10 10")
 mainframe.grid(row=0, column=0, sticky=("N", "W", "E", "S"))
@@ -46,7 +46,7 @@ quit_button = ttk.Button(button_frame, text="Quit", command=root.destroy)
 quit_button.pack(side="left")
 
 output_var = tk.StringVar()
-output_label = ttk.Label(mainframe, textvariable=output_var, background="white", relief="sunken", anchor="w", width=40)
+output_label = ttk.Label(mainframe, textvariable=output_var, background="white", relief="sunken", anchor="w", width=50)
 output_label.grid(row=3, column=0, columnspan=2, sticky="WE", pady=5)
 output_var.set("Enter the X,Y coordinates of a point\nClick Go\nThe application returns the\nresult as Polar coordinates.")
 
